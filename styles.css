@@ -1,0 +1,151 @@
+/* Reset default margin and padding */
+body, h1, button, input, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background and font */
+body {
+    font-family: 'Pacifico', cursive; /* Gunakan font yang lebih romantis */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Tinggi penuh viewport */
+    background-color: #ffccf9; /* Warna pink muda yang romantis */
+    color: #ff1493; /* Warna teks pink tua */
+}
+
+/* Container untuk form login */
+.login-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(255, 105, 180, 0.3); /* Bayangan pink */
+    max-width: 400px;
+    width: 100%;
+}
+
+/* GIF di bawah tulisan Login */
+#loginGif {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ff69b4;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-family: 'Pacifico', cursive;
+    outline: none;
+}
+
+/* Tombol Login */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 50px; /* Tombol bulat */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Pacifico', cursive;
+    background-color: #ff69b4; /* Warna pink cerah */
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff1493; /* Warna pink tua saat hover */
+    transform: scale(1.05);
+}
+
+/* Pesan error */
+#errorMessage {
+    font-size: 1.2rem;
+}
+
+/* Container untuk konten utama */
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(255, 105, 180, 0.3); /* Bayangan pink */
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Gambar untuk akun Asan atau Udang */
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    max-height: 500px;
+}
+
+.reset-button {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Pacifico', cursive;
+    background-color: #ff69b4;
+    color: white;
+    margin-top: 20px;
+}
+
+.reset-button:hover {
+    background-color: #ff1493;
+    transform: scale(1.05);
+}
+
+/* Styling untuk tombol */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Jarak antara tombol */
+    margin-top: 20px;
+}
+
+#yesButton, #noButton {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Pacifico', cursive;
+}
+
+#yesButton {
+    background-color: #4caf50; /* Warna hijau */
+    color: white;
+}
+
+#yesButton:hover {
+    background-color: #45a049; /* Warna hijau lebih gelap saat hover */
+    transform: scale(1.1);
+}
+
+#noButton {
+    background-color: #f44336; /* Warna merah */
+    color: white;
+}
+
+#noButton:hover {
+    background-color: #e53935; /* Warna merah lebih gelap saat hover */
+    transform: scale(1.1);
+}
